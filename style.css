@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html, body{
+    max-height: 100%;
+}  
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  3. Allow percentage-based heights in the application
+*/
+html, body {
+  height: 100%;
+}
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  6. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  7. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+/*
+  8. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+/*CSS reset code*/
+/*Font that is used in web page*/
+@font-face {
+    font-family: 'Work Sans';
+    src: url(/assets/fonts/WorkSans-VariableFont_wght.ttf);
+}
+/*Basic body code*/
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: hsl(275, 100%, 97%);
+    font-size: 1rem;
+}
+/*Code for the top image*/
+.bg-image img{
+    width: 100%;
+    height: 100%;
+}
+/*Code for centering main card that you see on the page*/
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -200px;
+}
+/*Code for the card design*/
+.container{
+    width: 680px;
+    height: 550px;
+    background-color: hsl(0, 100%, 100%);
+    border-radius: 10px;
+    padding: 40px;
+}
+/*Code for the header*/
+.header{
+  margin-bottom: 30px;
+}
+/*Code for the header text*/
+.header-text{
+  margin-top: -65px;
+}
+/*Code for the title of the web page*/
+.header h1{
+   font-size: 60px;
+   margin-left: 65px;
+   font-weight: 700;
+}
+/*Code for the first question*/
+.first-question h3{
+  font-size: 21px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+/*Code for the hover effect for the first question*/
+.first-question h3:hover{
+  color: rgba(172, 39, 234);
+  cursor: pointer;
+}
+/*Code for the answer for the first question*/
+.first-answer-text{
+  color: hsl(292, 16%, 49%);
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+/*Code for the second question*/
+.second-about{
+  margin-top: 30px;
+}
+/*Code for the second question*/
+.second-question h3{
+  font-size: 21px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+/*Code for the hover effect for the second question*/
+.second-question h3:hover{
+  color: rgba(172, 39, 234);
+  cursor: pointer;
+}
+/*Code for the answer for the second question*/
+.second-answer-text{
+  color: hsl(292, 16%, 49%);
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+/*Code for the third question*/
+.third-about{
+  margin-top: 30px;
+}
+/*Code for the third question*/
+.third-question h3{
+  font-size: 21px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+/*Code for the hover effect for the third question*/
+.third-question h3:hover{
+  color: rgba(172, 39, 234);
+  cursor: pointer;
+}
+/*Code for the answer for the third question*/
+.third-answer-text{
+  color: hsl(292, 16%, 49%);
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+/*Code for the fourth question*/
+.fourth-about{
+  margin-top: 30px;
+}
+/*Code for the fourth question*/
+.fourth-question h3{
+  font-size: 21px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+/*Code for the hover effect of the fourth question*/
+.fourth-question h3:hover{
+  color: rgba(172, 39, 234);
+  cursor: pointer;
+}
+/*Code for the answer for the third question*/
+.fourth-answer-text{
+  color: hsl(292, 16%, 49%);
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+/*Code for the image of the fourth question*/
+.fourth-about .images{
+  margin-top: -84px;
+  float: right;
+}
+/*Code for the horizontal line*/
+hr{
+ border: 1px solid hsl(275, 100%, 97%);
+}
+/*Code for the images of the questions*/
+.images{
+  margin-top: -50px;
+  float: right;
+}
+/*Code for the attribution text at the bottom of the page*/
+.attribution{
+  font-weight: 700;
+  margin-top: 100px;
+  font-size: 14px;
+}
+/*Code for attribution text*/
+.attribution a{
+  text-decoration: none;
+}
+/*Code for the hover effect of the attribution*/
+.attribution a:hover{
+  color: hsl(292, 16%, 49%);
+}
+/*Code for the FAQ section to make it interactive*/
+.faq-answer { display: none; }
+.faq-answer.active { display: block; }
